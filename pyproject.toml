@@ -1,0 +1,12 @@
+[project]
+name = "building-a-local-chatbot-using-ollama-and-chainlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.7.2",
+    "ollama>=0.5.3",
+    "openai>=1.107.0",
+    "openai-agents[litellm]>=0.2.11",
+]

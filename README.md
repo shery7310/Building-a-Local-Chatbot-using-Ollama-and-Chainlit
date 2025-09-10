@@ -209,6 +209,34 @@ llama_kv_cache_unified: kv_size = 4096, type_k = 'f16', type_v = 'f16', n_layer 
 ```
 
 This means current model's KV cache is configured for a 4096-token context, uses FP16 precision, allocates space for 32 layers, supports sliding window eviction, and pads allocations to 32 tokens for efficiency.
-#### Running a Local Chatbot using Chainlit
 
+#### Running this Local Chatbot
 
+The code exists in `chatbot.py`
+To run this program make sure you have python 3.12 installed on your system. 
+The install uv if it's already not installed i.e.
+
+<pre>
+pip install uv
+</pre>
+
+After make a folder where you want to clone(download) this project and the open that directory in terminal.
+Then run:
+
+<pre>
+git clone https://github.com/shery7310/Building-a-Local-Chatbot-using-Ollama-and-Chainlit.git
+</pre>
+
+Then after this is cloned in terminal run:
+
+<pre>
+cd Building-a-Local-Chatbot-using-Ollama-and-Chainlit
+</pre>
+
+Then just run `uv sync` to so that a virtual environment with required packages is created.
+
+Then open terminal to run this chatbot and run:
+
+<pre>
+uv run chainlit run chatbot.py -w
+</pre>
