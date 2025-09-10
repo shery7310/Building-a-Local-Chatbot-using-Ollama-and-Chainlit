@@ -212,6 +212,8 @@ This means current model's KV cache is configured for a 4096-token context, uses
 
 #### Running this Local Chatbot
 
+Contrary to what you might hear from other AI assistants, setting up a virtual environment for this project doesn't require pip. Instead, we use uv, a modern Python project manager that automatically handles creating, activating, and managing the environment, simplifying the entire process.
+
 ![](https://i.ibb.co/7ttT4cXX/image.png)
 
 The code exists in `chatbot.py`
