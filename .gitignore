@@ -1,0 +1,4 @@
+.idea/
+.chainlit/
+.python-version
+__pycache__/
