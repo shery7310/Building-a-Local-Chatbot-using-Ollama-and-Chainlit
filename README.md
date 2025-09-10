@@ -238,7 +238,7 @@ cd Building-a-Local-Chatbot-using-Ollama-and-Chainlit
 Then just run `uv sync` to so that a virtual environment with required packages is created.
 
 Then open up chatbot.py in your ide and put the name of your local model in the variable model_name
-after that close it. 
+after that close it and then run:
 
 <pre>
 uv run chainlit run chatbot.py -w
