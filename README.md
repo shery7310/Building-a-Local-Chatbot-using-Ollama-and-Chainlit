@@ -212,7 +212,7 @@ This means current model's KV cache is configured for a 4096-token context, uses
 
 #### Running this Local Chatbot
 
-![](https://i.ibb.co/7ttT4cXX/image.png)
+![](https://i.ibb.co/mVC5ZXTX/Screenshot-2025-09-11-at-02-40-37-Assistant.png)
 
 The code exists in `chatbot.py`
 To run this program make sure you have python 3.12 installed on your system. 
